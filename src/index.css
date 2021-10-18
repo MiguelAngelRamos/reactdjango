@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(239, 241, 243);
+}
+table {
+  background-color: white;
+}
+/* Contenedor para el menu en el home y tambien para el buscador home (necesario para ordenar las cards)*/
+.contenedor{
+  height: 50vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card-body{
+  color: white;
+}
+
+/* Hacer que la imagen se ponga redondita */
+.contenedor-img {
+  width:40px;
+  height:40px;
+  border-radius:100px;
+  overflow:hidden;
+}
+
+.contenedor-img img{
+  width:100%;
+  height:100%;
+}
+
+/* .imagen-radio{
+  width:60px;
+  height:60px;
+  border-radius:100px;
+  border:solid 1px blue;
+  overflow:hidden;
+} */
+
+/* Estilos para register y login */
+
+
+/*background de las card de los paneles home*/
+.card-background{
+  background: rgb(60, 59, 63);
+  background: linear-gradient(90deg, rgb(88, 88, 94) 0%, rgba(105,105,111,1) 21%, rgb(60, 65, 66) 100%);
+}
+
+.w150{
+  width: 272px;
+  height: 268px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.w100 {
+  width: 100px;
+  height: 100px;
+  margin-bottom:10px;
+}
+
+.pointer {
+  cursor:pointer;
+}
+
+.img-50 {
+  width: 50px;
+  height: 50px;
+}
+.fondo-negro {
+  background-color: rgba(0,0,0,0.4);
+  position:fixed; /* posicion estatica */
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 100%;
+  z-index:3000;
+}
+
+.oculto {
+  display:none;
+}
+
+.ocultoEdit {
+  display:none;
+}
+
+.botonTable {
+  font-size: 8px;
+  width:110px;
+}
+
+/* localhost:4200/profile*/
+.table-data {
+  margin-top:20px;
+  margin-left:10px;
+  font-size: 16px;
+  font-weight: bold;
+
+  
+}
+
+.table-data div {
+  background-color:white;
+  padding: 10px 0px 10px 10px;
+ 
+}
+/* .title {
+background-color:#23272B;
+color: white;
+} */
+
+.userNavbar {
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+}
